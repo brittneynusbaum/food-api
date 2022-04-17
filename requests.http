@@ -1,2 +1,5 @@
 ### index dishes
 GET http://localhost:3000/dishes.json
+
+### show dish
+GET http://localhost:3000/dishes/3.json
