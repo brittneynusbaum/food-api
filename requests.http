@@ -3,3 +3,15 @@ GET http://localhost:3000/dishes.json
 
 ### show dish
 GET http://localhost:3000/dishes/3.json
+
+### create dish
+POST http://localhost:3000/dishes.json
+content-type: application/json
+
+{
+  "name": "Chocolate Chai Frost",
+  "description": "Black tea, spiced chai, topped with chocolate and cinnamon.",
+  "buy_again": "Yes",
+  "restaurant": "Tea Bar and Fusion Cafe",
+  "image": "http://ilovetbar.com/wp-content/uploads/2020/03/tbar-teaz-freeze-chocolate-chai.png"
+}
