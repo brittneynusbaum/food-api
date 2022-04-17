@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get "/dishes" => "dishes#index"
   get "/dishes/:id" => "dishes#show"
   post "/dishes/" => "dishes#create"
+  patch "/dishes/:id" => "dishes#update"
 end

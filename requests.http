@@ -15,3 +15,11 @@ content-type: application/json
   "restaurant": "Tea Bar and Fusion Cafe",
   "image": "http://ilovetbar.com/wp-content/uploads/2020/03/tbar-teaz-freeze-chocolate-chai.png"
 }
+
+### update dish
+PATCH http://localhost:3000/dishes/3.json
+content-type: application/json
+
+{
+  "description": "Normal order: no sprouts, with creamy teriyaki dressing, shredded carrots, brown rice, and sweet chilli chicken."
+}
