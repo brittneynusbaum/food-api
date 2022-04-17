@@ -8,4 +8,5 @@ Rails.application.routes.draw do
   get "/dishes/:id" => "dishes#show"
   post "/dishes/" => "dishes#create"
   patch "/dishes/:id" => "dishes#update"
+  delete "/dishes/:id" => "dishes#destroy"
 end

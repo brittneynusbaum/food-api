@@ -32,5 +32,11 @@ class DishesController < ApplicationController
     dish.save
     render json: dish.as_json
   end
+
+  def destroy
+    dish = Dish.find(params[:id])
+    dish.destroy
+    render json: {message: "Dish deleted!"}
+  end
   
 end

@@ -9,11 +9,11 @@ POST http://localhost:3000/dishes.json
 content-type: application/json
 
 {
-  "name": "Chocolate Chai Frost",
-  "description": "Black tea, spiced chai, topped with chocolate and cinnamon.",
+  "name": "Test",
+  "description": "test",
   "buy_again": "Yes",
-  "restaurant": "Tea Bar and Fusion Cafe",
-  "image": "http://ilovetbar.com/wp-content/uploads/2020/03/tbar-teaz-freeze-chocolate-chai.png"
+  "restaurant": "test",
+  "image": "image test"
 }
 
 ### update dish
@@ -23,3 +23,6 @@ content-type: application/json
 {
   "description": "Normal order: no sprouts, with creamy teriyaki dressing, shredded carrots, brown rice, and sweet chilli chicken."
 }
+
+### delete dish
+DELETE http://localhost:3000/dishes/5.json
