@@ -9,4 +9,6 @@ Rails.application.routes.draw do
   post "/dishes/" => "dishes#create"
   patch "/dishes/:id" => "dishes#update"
   delete "/dishes/:id" => "dishes#destroy"
+
+  post "/users" => "users#create"
 end

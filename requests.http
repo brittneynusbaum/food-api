@@ -26,3 +26,17 @@ content-type: application/json
 
 ### delete dish
 DELETE http://localhost:3000/dishes/5.json
+
+
+#------ User Signup & Login ------#
+
+###
+POST http://localhost:3000/users.json
+content-type: application/json
+
+{
+  "name": "Sam Gamgee",
+  "email": "sam@theonering.com",
+  "password": "password",
+  "password_confirmation": "password"
+}
