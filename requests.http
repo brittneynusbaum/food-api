@@ -35,8 +35,8 @@ POST http://localhost:3000/users.json
 content-type: application/json
 
 {
-  "name": "Sam Gamgee",
-  "email": "sam@theonering.com",
+  "name": "Frodo Baggins",
+  "email": "frodo@theonering.com",
   "password": "password",
   "password_confirmation": "password"
 }
