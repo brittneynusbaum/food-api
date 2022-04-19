@@ -30,7 +30,7 @@ DELETE http://localhost:3000/dishes/5.json
 
 #------ User Signup & Login ------#
 
-###
+### user signup
 POST http://localhost:3000/users.json
 content-type: application/json
 
@@ -39,4 +39,13 @@ content-type: application/json
   "email": "frodo@theonering.com",
   "password": "password",
   "password_confirmation": "password"
+}
+
+### user login
+POST http://localhost:3000/sessions.json
+content-type: application/json
+
+{
+  "email": "frodo@theonering.com",
+  "password": "password"
 }
