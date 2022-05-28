@@ -28,6 +28,18 @@ content-type: application/json
 DELETE http://localhost:3000/dishes/5.json
 
 
+
+
+
+#------ Restaurants ------#
+
+###
+GET http://localhost:3000/restaurants
+
+
+
+
+
 #------ User Signup & Login ------#
 
 ### user signup
